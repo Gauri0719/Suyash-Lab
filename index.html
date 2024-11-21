@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology Lab - Dr. Ajit Chavan</title>
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicons.jpg" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicons.jpg" sizes="16x16" type="image/png">
+    <style>
+        .hero {
+            height: 600px;
+            background: url(banner-1.jpg) no-repeat center center/cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            .btn-primary {
+           color: #5B9BD5;
+           border-color: #5B9BD5;
+          color: #FFFFFF;
+          .btn-primary {
+    color: #008080; /* Deep Teal */
+    border-color: #008080;
+    color: #FFFFFF;
+}
+.btn-primary:hover {
+     color: #006666; /* Darker Teal */
+    border-color: #006666;
+}
+
+/* Outline Button Style */
+.btn-outline-primary {
+    color: #5B9BD5; /* Soft Blue */
+    border-color: #5B9BD5;
+}
+.btn-outline-primary:hover 
+{
+    background-color: rgba(91, 155, 213, 0.1); /* Subtle hover effect */
+    color: #5B9BD5;
+}
+}
+        }
+        .hero h1 {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    color: #5B9BD5; /* Soft Blue */
+    text-align: left;
+        }
+        .section img{
+            height: 200px;
+        }
+     /* Extra Small Devices (Phones) - Up to 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Small Devices (Tablets) - Between 576px and 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Medium Devices (Small Laptops) - Between 768px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        padding: 15px;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    .card {
+        margin: 15px;
+    }
+}
+
+/* Large Devices (Desktops) - Between 992px and 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 42px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) - Above 1200px */
+@media (min-width: 1201px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg"style="background-color: #5B9BD5;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Suyash Pathology Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reports.html">Download Report</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero py-5 text-center d-flex align-items-center" style="height: 500px;">
+        <div class="container">
+            <h2 style="color:rgb(218, 32, 79); position: absolute; top: 70px; left: 600px;">Welcome to Dr. Ajit Chavan's Pathology Lab</h2>
+            <h3 class="lead" style="color: goldenrod; position: absolute; top: 120px; left:750px;">Accurate Diagnostics, Trusted Results</h3>
+            <a href="#services" class="btn btn-outline-light btn-lg" style="color: #5B9BD5; border-color: #5B9BD5; margin-top: 100px; position: absolute; top: 150px; left:950px;">Our Services</a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg "style="color: #5B9BD5; border-color: #5B9BD5;position: absolute; top: 250px; left:800px;">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p>
+                At Dr. Ajit Chavan's Pathology Lab, we provide precise and reliable diagnostic services. 
+                With state-of-the-art technology and a team of experts, we ensure accurate results every time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images.jpg" class="card-img-top" alt="Blood Test" height="280px">
+                        <div class="card-body">
+                            <h5 class="card-title">Blood Tests</h5>
+                            <p class="card-text">Comprehensive blood analysis for accurate diagnostics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="ProjectAndProfileImage-768673-.jpg" class="card-img-top" alt="Urine Test" height="280px">
+                        <div class="card-body">
+                            <h5 class="card-title">Urine Tests</h5>
+                            <p class="card-text">Reliable urine tests for detecting various conditions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="home-blood-collection-services.jpg" class="card-img-top" alt="Home Sample Collection" height="280px">
+                        <div class="card-body">
+                            <h5 class="card-title">Home Sample Collection</h5>
+                            <p class="card-text">Convenient sample collection at your doorstep.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Dr. Ajit Chavan's Pathology Lab. All Rights Reserved.</p>
+        <p>Follow us on: 
+            <a href="#" class="text-white">Facebook</a> | 
+            <a href="#" class="text-white">Twitter</a> | 
+            <a href="#" class="text-white">Instagram</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
