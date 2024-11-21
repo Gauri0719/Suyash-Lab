@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Dr. Ajit Chavan's Pathology Lab</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicons.jpg" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicons.jpg" sizes="16x16" type="image/png">
+    <style>
+        .service-header {
+            background-color: #5B9BD5; /* Soft Blue */
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .service-card {
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .service-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .btn-service {
+            background-color: #008080; /* Deep Teal */
+            color: #ffffff;
+        }
+        .btn-service:hover {
+            background-color: #006666;
+        }
+        /* Extra Small Devices (Phones) - Up to 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Small Devices (Tablets) - Between 576px and 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Medium Devices (Small Laptops) - Between 768px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        padding: 15px;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    .card {
+        margin: 15px;
+    }
+}
+
+/* Large Devices (Desktops) - Between 992px and 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 42px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) - Above 1200px */
+@media (min-width: 1201px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #444;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Suyash Pathology Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reports.html">Download Report</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="service-header">
+        <h1>Our Services</h1>
+        <p>Explore the wide range of diagnostic services we offer.</p>
+    </div>
+
+    <!-- Services Cards Section -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="still-life-laboratory-samples_23-2151108796.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Blood Test</h5>
+                        <p class="card-text">Our blood testing services offer comprehensive diagnostics, including routine check-ups, cholesterol levels, blood sugar, and more.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="download.jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Urine Test</h5>
+                        <p class="card-text">We provide urine analysis for detecting infections, kidney conditions, and other health issues.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="doctor-using-chest-x-ray-machine.jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">X-ray Services</h5>
+                        <p class="card-text">Our diagnostic imaging services include X-ray scans to help identify bone fractures, infections, and more.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="maxresdefault.jpg" class="card-img-top" alt="Service 4">
+                    <div class="card-body">
+                        <h5 class="card-title">CT Scans</h5>
+                        <p class="card-text">We offer high-resolution CT scans to diagnose internal issues like tumors, strokes, and other serious conditions.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="why-ultrasound-machines-must-be-present-in-every-healthcare-setting.webp" class="card-img-top" alt="Service 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultrasound</h5>
+                        <p class="card-text">Our ultrasound services provide high-quality imaging for soft tissue conditions and pregnancy monitoring.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="6.1What-is-a-3-Channel-ECG-Machine-What-is-it-Used-For_-1024x576.webp" class="card-img-top" alt="Service 6">
+                    <div class="card-body">
+                        <h5 class="card-title">ECG</h5>
+                        <p class="card-text">Electrocardiogram (ECG) services for monitoring heart health and diagnosing potential heart conditions.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="Kidney-Biopsy-Metropolis-healthcare-limited-1.png" class="card-img-top" alt="Service 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Biopsy</h5>
+                        <p class="card-text">Our biopsy services help detect cancerous cells and identify abnormal tissue growth.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="COVID-19-Vaccines-scaled.jpg" class="card-img-top" alt="Service 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaccination</h5>
+                        <p class="card-text">We provide vaccination services for various diseases, ensuring your health and safety.</p>
+                        <a href="#" class="btn btn-service">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Dr. Ajit Chavan's Pathology Lab. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
