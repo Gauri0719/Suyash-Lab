@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dr. Ajit Chavan's Pathology Lab</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicons.jpg" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicons.jpg" sizes="16x16" type="image/png">
+    <style>
+        .contact-header {
+            background-color: #5B9BD5; /* Soft Blue */
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .contact-form {
+            background-color: #f8f9fa; /* Light Grey */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-submit {
+            background-color: #008080; /* Deep Teal */
+            color: #ffffff;
+        }
+        .btn-submit:hover {
+            background-color: #006666;
+        }
+        /* Extra Small Devices (Phones) - Up to 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Small Devices (Tablets) - Between 576px and 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Medium Devices (Small Laptops) - Between 768px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        padding: 15px;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    .card {
+        margin: 15px;
+    }
+}
+
+/* Large Devices (Desktops) - Between 992px and 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 42px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) - Above 1200px */
+@media (min-width: 1201px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #444;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Suyash Pathology Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reports.html">Download Report</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We’re here to help. Get in touch with us today!</p>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="blood_samples_in_tubes_Image_by_Ahmad_Ardity_from_Pixabay.6138ad2a16418.png" alt="Contact Us" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <h3 class="mb-4">Send Us a Message</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Dr. Ajit Chavan's Pathology Lab. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
