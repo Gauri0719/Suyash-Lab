@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicons.jpg" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicons.jpg" sizes="16x16" type="image/png">
+        <style>
+        /* Extra Small Devices (Phones) - Up to 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Small Devices (Tablets) - Between 576px and 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Medium Devices (Small Laptops) - Between 768px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        padding: 15px;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    .card {
+        margin: 15px;
+    }
+}
+
+/* Large Devices (Desktops) - Between 992px and 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 42px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) - Above 1200px */
+@media (min-width: 1201px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}
+</style>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Suyash Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="signin.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign In Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2>Sign In</h2>
+                    <p>Please enter your credentials to access your account.</p>
+                    <!-- Placeholder for blood tubes image -->
+                    <img src="blood-sample-collection-for-lab-test-at-home-in-dubai.jpg" alt="Blood Tubes" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
