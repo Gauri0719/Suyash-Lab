@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dr. Ajit Chavan's Pathology Lab</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicons.jpg" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicons.jpg" sizes="16x16" type="image/png">
+    <style>
+        .about-header {
+            background-color: #5B9BD5; /* Soft Blue */
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about-content {
+            line-height: 1.8;
+        }
+        .team-section img {
+            height: 250px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .btn-contact {
+            background-color: #008080; /* Deep Teal */
+            color: #ffffff;
+        }
+        .btn-contact:hover {
+            background-color: #006666;
+        }
+        .team-image {
+    height: 300px; /* Standard height */
+    object-fit: cover; /* Ensures images are cropped properly */
+    width: 100%; /* Ensures full width of the parent container */
+        }
+        /* Extra Small Devices (Phones) - Up to 576px */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Small Devices (Tablets) - Between 576px and 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Medium Devices (Small Laptops) - Between 768px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        padding: 15px;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+    }
+    .card {
+        margin: 15px;
+    }
+}
+
+/* Large Devices (Desktops) - Between 992px and 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 42px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (Large Desktops) - Above 1200px */
+@media (min-width: 1201px) {
+    .hero-section h1 {
+        font-size: 48px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #444;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Suyash Pathology Lab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reports.html">Download Report</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="about-header">
+        <h1>About Us</h1>
+        <p>Learn more about our journey, mission, and team.</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="laboratory-website-design-vector-25513024.jpg" class="img-fluid rounded" alt="Lab Image">
+            </div>
+            <div class="col-md-6">
+                <h2>Welcome to Dr. Ajit Chavan's Pathology Lab</h2>
+                <p class="about-content">
+                    Established in 2010, Dr. Ajit Chavan's Pathology Lab has been committed to providing accurate and reliable diagnostic services. 
+                    Our state-of-the-art laboratory is equipped with the latest technology to ensure precision in every test we conduct.
+                </p>
+                <p class="about-content">
+                    We pride ourselves on our team of highly qualified professionals who are dedicated to delivering exceptional care and diagnostics. 
+                    From routine blood tests to advanced imaging services, our goal is to support patients and healthcare providers in achieving better health outcomes.
+                </p>
+                <a href="contact.html" class="btn btn-contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission and Vision Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Mission & Vision</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Our Mission</h4>
+                    <p>To provide accurate and reliable diagnostic services that help in the early detection, diagnosis, and management of diseases, ensuring better health for all.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Our Vision</h4>
+                    <p>To be a trusted leader in diagnostics by leveraging technology, innovation, and compassion to serve our patients with excellence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Meet Our Team</h2>
+    <div class="row text-center">
+        <!-- Team Member 1 -->
+        <div class="col-md-3">
+            <img src="_b434bebc-fb22-11e5-bced-6695953481e2.jpg" alt="Team Member 1" class="img-fluid team-image">
+            <h5 class="mt-3">Dr. Ajit Chavan</h5>
+            <p>Chief Pathologist</p>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-3">
+            <img src="Dr.-K.-Chandramouleeswari-Consultant-Pathologist.webp" alt="Team Member 2" class="img-fluid team-image">
+            <h5 class="mt-3">Dr. Sneha Sharma</h5>
+            <p>Radiologist</p>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-3">
+            <img src="Pathologist.jpg" alt="Team Member 3" class="img-fluid team-image">
+            <h5 class="mt-3">Dr. Rajiv Gupta</h5>
+            <p>Lab Technician</p>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-md-3">
+            <img src="cli4.png" alt="Team Member 4" class="img-fluid team-image">
+            <h5 class="mt-3">Ms. Priya Singh</h5>
+            <p>Lab Coordinator</p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Dr. Ajit Chavan's Pathology Lab. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
